@@ -24,8 +24,6 @@ github_username:  ammanvedi
 
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-feed
 show_excerpts: true
 gems:
 - jekyll-seo-tag
