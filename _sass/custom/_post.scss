@@ -1,0 +1,49 @@
+.post {
+    .post-title {
+        margin-left: -5px;
+        font-family: 'Tinos', serif;
+        font-size: 70px;
+        line-height: 70px;
+        color: #191919;
+        opacity: .75;
+        border-bottom: 6px solid transparent;
+        transition: border-bottom-color .2s ease-out;
+    }
+
+    .post-content {
+        font-size: 20px;
+    }
+}
+
+
+@media ( max-width: $break-tablet ) {
+
+    .post {
+        padding: 0 35px;
+
+        .post-title {
+            font-size: 50px;
+            line-height: 50px;
+        }
+    }
+
+}
+
+
+@media ( max-width: $break-mobile ) {
+
+    .post {
+        padding: 0;
+        
+        .post-title {
+            font-size: 35px;
+            line-height: 35px;
+            margin-bottom: 6px;
+            margin-left: 0;
+        }
+
+        .post-content {
+            font-size: 16px;
+        }
+    }
+}
