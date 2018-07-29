@@ -1,0 +1,32 @@
+.header-code {
+    padding: 0;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    opacity: 0.9;
+    color: #3A3C47;
+    margin-bottom: 60px;
+
+    &__highlight {
+        color: #EB3671;
+        opacity: .8;
+    }
+}
+
+
+@media ( max-width: $break-tablet ) {
+
+    .header-code {
+        font-size: 14px;
+        padding: 0px 35px;
+    }
+}
+
+@media ( max-width: $break-mobile ) {
+
+    .header-code {
+        font-size: 10px;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+}
