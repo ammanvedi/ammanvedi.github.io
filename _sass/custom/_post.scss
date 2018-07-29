@@ -1,7 +1,14 @@
 .post {
+
+    .post-title,
+    h1,
+    h2,
+    h3 {
+        font-family: 'Tinos', serif;
+    }
+
     .post-title {
         margin-left: -5px;
-        font-family: 'Tinos', serif;
         font-size: 70px;
         line-height: 70px;
         color: #191919;
@@ -34,7 +41,7 @@
 
     .post {
         padding: 0;
-        
+
         .post-title {
             font-size: 35px;
             line-height: 35px;
