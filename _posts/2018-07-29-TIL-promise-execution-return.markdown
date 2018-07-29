@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "TIL: Promises, reolution and then's second argument"
+title:  "TIL: Promises, resolution and then's second argument"
 date:   2018-07-23 17:35:01 +0100
 ---
 At work over the past weeks some situations arose that lead me to get a better understanding of promises.
 
 ## One: return reject();
 
-In the first situation we had a peice of code that looked like so;
+In the first situation we had a piece of code that looked like so;
 
 {% highlight javascript %}
 return new Promise( ( resolve, reject ) => {
