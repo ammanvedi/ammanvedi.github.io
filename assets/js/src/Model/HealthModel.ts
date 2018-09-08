@@ -71,7 +71,7 @@ export class HealthModel {
 
     getWorkoutString( workouts: WorkoutSet ) {
         const lastWorkout = workouts[ 0 ];
-        const lastWorkoutAgo = moment( this.getMSTimestamp( lastWorkout.timestamp ) ).calendar();
+        const lastWorkoutAgo = moment( this.getMSTimestamp( lastWorkout.timestamp ) ).calendar().toLowerCase();
         return `My last run was ${ lastWorkoutAgo }, ${ this.getWorkoutDescription( lastWorkout ) }`
     }
 
@@ -81,7 +81,7 @@ export class HealthModel {
         const pace = workout.pace;
         const avg : number = parseFloat( this.getWorkoutAverage().toFixed( 1 ) );
         const betterWorse = pace < avg ? 'better' : pace === avg ? 'the same': 'worse'
-        return `I went for a ${ dist } run, it took ${ duration } at a pace of ${ pace } min/Km, which is ${ betterWorse } than my overall average of ${ avg } min/Km`
+        return `I covered ${ dist }, it took ${ duration } at a pace of ${ pace } min/Km, which is ${ betterWorse } than my overall average of ${ avg } min/Km`
     }
 
     getRunDuration( workout : Workout ) : string {
