@@ -71,13 +71,8 @@ export class HealthModel {
 
     getWorkoutString( workouts: WorkoutSet ) {
         const lastWorkout = workouts[ 0 ];
-        const workedOutToday = moment( this.getMSTimestamp( lastWorkout.timestamp ) ).isSame(moment(), 'day')
-        if( workedOutToday ) {
-            return this.getWorkoutDescription( lastWorkout );
-        } else {
-            const lastWorkoutAgo = moment( this.getMSTimestamp( lastWorkout.timestamp ) ).calendar();
-            return `My last workout was ${ lastWorkoutAgo }, ${ this.getWorkoutDescription( lastWorkout ) }`
-        }
+        const lastWorkoutAgo = moment( this.getMSTimestamp( lastWorkout.timestamp ) ).calendar();
+        return `My last run was ${ lastWorkoutAgo }, ${ this.getWorkoutDescription( lastWorkout ) }`
     }
 
     getWorkoutDescription( workout: Workout ) : string {
