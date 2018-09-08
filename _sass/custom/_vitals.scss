@@ -1,0 +1,195 @@
+.vitals {
+    position: relative;
+
+    @include health-font;
+
+    &__graph {
+        z-index: 10;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        box-shadow: inset 0px 0px 0px 3px rgba(0,0,0,.04);
+
+        &::after {
+
+        }
+    }
+
+    &__graph-wrap {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+    }
+
+    &__content {
+        z-index: 20;
+        position: relative;
+    }
+
+    &__metrics {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        margin-bottom: 25px;
+        flex-wrap: wrap;
+    }
+
+    &__metric-container {
+        margin-right: 40px;
+        margin-bottom: 20px;
+        flex: 0;
+
+        &::last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__text {
+        font-weight: bold;
+        color: $text-dark;
+        letter-spacing: -1px;
+        max-width: 550px;
+        display: block;
+        font-size: 28px;
+        line-height: 34px;
+
+        &::after {
+            content: '';
+            background-color: rgba( 255, 0, 173, .15 );
+            height: 8px;
+            margin-top: 15px;
+            display: block;
+            margin-right: 22px;
+        }
+    }
+}
+
+.vital-metric {
+
+    @include health-font;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    &__icon {
+        width: 22px;
+        height: 22px;
+        margin-right: 8px;
+        color: transparent;
+        user-select: none;
+        background-color: transparent;
+        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 33px;
+
+        &--heart {
+            background-image: url(/assets/svg/heart.svg);
+            opacity: .7;
+            background-size: 18px 18px;
+            background-position: center;
+        }
+
+        &--steps {
+            background-image: url(/assets/svg/steps.svg);
+        }
+
+        &--distance {
+            background-image: url(/assets/svg/distance.svg);
+        }
+    }
+
+    &__content {
+
+    }
+
+    &__main-value-container {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    &__main-value {
+        font-size: 60px;
+        font-weight: bold;
+        color: #222;
+        opacity: .74;
+        flex: 0 0 auto;
+        line-height: 50px;
+    }
+
+    &__unit {
+        flex: 1 1 auto;
+        margin-left: 1px;
+    }
+
+    &__unit-value {
+        display: block;
+        font-size: 17px;
+        font-style: italic;
+        font-weight: 400;
+        color: $text-dark;
+        opacity: .6;
+        line-height: 20px;
+    }
+
+    &__unit-description {
+        color: $text-dark;
+        display: block;
+        font-weight: bold;
+        font-size: 13px;
+        margin-left: 3px;
+    }
+
+    &__secondary-value-container {
+        opacity: .45;
+        flex: 0 0 100%;
+        display: flex;
+        margin-top: 5px;
+    }
+
+    &__secondary-value {
+        font-size: 24px;
+        line-height: 29px;
+        font-weight: bold;
+        line-height: 26px;
+    }
+
+    &__secondary-unit {
+        margin-left: 3px;
+    }
+
+    &__secondary-unit-value {
+        display: block;
+        font-size: 11px;
+        line-height: 11px;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    &__secondary-unit-value-description {
+        display: block;
+        font-size: 12px;
+        line-height: 12px;
+        font-weight: bold;
+        font-style: italic;
+    }
+}
+
+
+@media (max-width: $break-mobile) {
+    .vitals {
+
+        &__text {
+            font-size: 20px;
+            line-height: 25px;
+        }
+
+        &__metrics {
+            margin-bottom: 0;
+        }
+    }
+}

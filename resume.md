@@ -7,13 +7,17 @@ title: About
 <span style="filter:grayscale(100%);" >👤</span> Amman Vedi <br/>
 <span style="filter:grayscale(100%);" >📍</span> London <br/>
 <span style="filter:grayscale(100%);" >💌</span> amman.vedi@gmail.com <br/>
-<span style="filter:grayscale(100%);" >🔗</span> https://github.com/ammanvedi
+<span style="filter:grayscale(100%);" >🔗</span> [Github](https://github.com/ammanvedi)&nbsp;<span style="opacity:.3;">•</span>&nbsp;[Twitter](https://twitter.com/ammanv)&nbsp;<span style="opacity:.3;">•</span>&nbsp;[LinkedIn](https://www.linkedin.com/in/ammanvedi/)
+
+<br/>
+**Vitals** &nbsp;<span style="opacity:.3;">•</span>&nbsp; <span style="filter:grayscale(100%);" >❤️</span>
+<div id="health" class="health-container"></div>
 
 <br/>
 **Work** &nbsp;<span style="opacity:.3;">•</span>&nbsp; <span style="filter:grayscale(100%);" >💼</span>
 
 `September 2015 - Present` &nbsp;•&nbsp; [**Pulselive**](http://www.pulselive.com/) <br /> <br />
-Took part in builds of websites for various clients in the sports industry, most notably [World Rugby](), [Rugby World Cup](), [Premier League](), [Liverpool LFCTVGO]() and FC Barcelona.
+Took part in builds of websites for various clients in the sports industry, most notably [World Rugby](https://www.worldrugby.org), [Rugby World Cup](https://www.rugbyworldcup.com/), [Premier League](https://www.premierleague.com/), [Liverpool LFCTVGO](https://video.liverpoolfc.com/) and FC Barcelona.
 
 _Skills: HTML, CSS, JS, Gulp, SASS, ES6, AWS Lambda (NodeJS), AWS DynamoDB, AWS API Gateway, Redux, Yeoman, JSDoc_
 
