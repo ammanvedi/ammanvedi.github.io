@@ -7,6 +7,7 @@ module.exports = {
     'path': path.join( __dirname, 'dist' ),
     'filename': 'app.bundle.js'
   },
+  'devtool': "source-map",
   'module': {
     'rules': [
       // ts-loader: convert typescript (es6) to javascript (es6),

@@ -1,7 +1,25 @@
+@keyframes fade-in-up {
+    0% {
+        opacity: 0;
+        transform: translateY( 100px );
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY( 0 );
+    }
+}
+
 .vitals {
     position: relative;
-
     @include health-font;
+
+    &, &__graph {
+        animation-name: fade-in-up;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+        animation-duration: .2s;
+    }
 
     &__graph {
         z-index: 10;
@@ -11,10 +29,6 @@
         bottom: 0;
         top: 0;
         box-shadow: inset 0px 0px 0px 3px rgba(0,0,0,.04);
-
-        &::after {
-
-        }
     }
 
     &__graph-wrap {
@@ -23,6 +37,7 @@
         right: 0;
         bottom: 0;
         top: 0;
+        z-index: -1;;
     }
 
     &__content {

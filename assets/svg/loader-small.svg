@@ -1,0 +1,28 @@
+
+<svg width="45px" height="49px" viewBox="0 0 45 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="98.6407153%" y1="50%" x2="50%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#07E0FB" offset="0%"></stop>
+            <stop stop-color="#06FEB8" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="22.7295918" cy="5.73979592" r="5.73979592"></circle>
+        <filter x="-34.8%" y="-69.7%" width="239.4%" height="239.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="4" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.246037138 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-30.000000, -26.000000)">
+            <g id="small" transform="translate(30.000000, 30.000000)">
+                <path d="M22.5,45 C10.0735931,45 0,34.9264069 0,22.5 C0,10.0735931 10.0735931,0 22.5,0 C34.9264069,0 45,10.0735931 45,22.5 C45,34.9264069 34.9264069,45 22.5,45 Z M22.7295918,33.9795918 C28.9427953,33.9795918 33.9795918,28.9427953 33.9795918,22.7295918 C33.9795918,16.5163884 28.9427953,11.4795918 22.7295918,11.4795918 C16.5163884,11.4795918 11.4795918,16.5163884 11.4795918,22.7295918 C11.4795918,28.9427953 16.5163884,33.9795918 22.7295918,33.9795918 Z" id="Combined-Shape" fill="url(#linearGradient-1)" opacity="0.834430804"></path>
+                <g id="Oval-6">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="#06FEB9" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

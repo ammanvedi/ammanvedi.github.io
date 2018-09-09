@@ -35,6 +35,7 @@ exclude:
 #   - Gemfile
 #   - Gemfile.lock
     - assets/js/node_modules
+    - assets/js/src
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/

@@ -11,7 +11,13 @@ title: About
 
 <br/>
 **Vitals** &nbsp;<span style="opacity:.3;">•</span>&nbsp; <span style="filter:grayscale(100%);" >❤️</span>
-<div id="health" class="health-container"></div>
+<div id="health" class="health-container">
+    <div class="loader">
+        <div class="loader__ring loader__ring--small"></div>
+        <div class="loader__ring loader__ring--medium"></div>
+        <div class="loader__ring loader__ring--large"></div>
+    </div>
+</div>
 
 <br/>
 **Work** &nbsp;<span style="opacity:.3;">•</span>&nbsp; <span style="filter:grayscale(100%);" >💼</span>

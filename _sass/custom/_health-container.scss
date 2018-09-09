@@ -6,6 +6,24 @@
     padding: 39px 37px 54px;
     overflow: hidden;
 
+    &__error {
+        @include health-font;
+        display: block;
+        text-align: center;
+        font-style: italic;
+        font-size: 18px;
+        color: #222;
+
+        &::before {
+            content: '🙃';
+            display: block;
+            font-size: 54px;
+            font-style: normal;
+            line-height: 29px;
+            margin-bottom: 20px;
+        }
+    }
+
     &__heart-rate {
         margin: 0 -53px;
         position: absolute;
@@ -22,17 +40,6 @@
             position: relative;
             bottom: -10px;
         }
-        /*
-        &::after {
-            content: '';
-            position: absolute;
-            height: 74px;
-            left: 0;
-            right: 0;
-            bottom: -67px;
-            background-color: $graph-color;
-        }
-        */
     }
 }
 
