@@ -32,14 +32,16 @@ export interface HealthData {
     heartrate: HeartRateSet
     workouts: WorkoutSet
     averageWorkoutPace: number
-    metrics: Metrics
+    metrics: Metrics,
+    restingHeartrate: number
 }
 
 export interface HealthDataUIModel {
     lastUpdated: string
     workoutString: string
     metrics: Metrics
-    heartRate: HeartRateSet
+    heartRate: HeartRateSet,
+    restingHeartrate: number
 }
 
 export class HealthModel {
@@ -53,7 +55,8 @@ export class HealthModel {
             lastUpdated: this.getLastUpdated( this.data.lastUpdateTimestamp ),
             workoutString: this.getWorkoutString( this.getWorkouts() ),
             metrics: this.data.metrics,
-            heartRate: this.data.heartrate
+            heartRate: this.data.heartrate,
+            restingHeartrate: this.data.restingHeartrate
         }
     }
 
@@ -110,7 +113,7 @@ export class HealthModel {
     }
 
     getRestingHeartRate() : number {
-        return 42;
+        return this.model.restingHeartrate;
     }
 
     getStepsToday() : string {

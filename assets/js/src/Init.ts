@@ -10,7 +10,6 @@ interface Console {
 declare function fetch( url: string ) : Promise<any>;
 declare const console : Console;
 
-
 document.addEventListener( 'DOMContentLoaded', () => {
     const element: HTMLElement = document.getElementById( 'health' );
 

@@ -51,7 +51,7 @@ export class HealthViewController {
             mainValue: model.getLatestHeartRate().bpm.toString(),
             mainValueUnit: 'bpm',
             mainValueDesription: 'latest',
-            secondaryValue: '42',
+            secondaryValue: model.getRestingHeartRate().toString(),
             secondaryValueUnit: 'bpm',
             secondaryValueDescription: 'resting'
         }
