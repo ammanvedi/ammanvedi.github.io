@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "React Starter Project"
-date:   2018-07-23 17:35:01 +0100
+date:   2018-10-21 21:03:00 +0100
 ---
 After three great years at Pulselive I am moving on, Im very pleased to say I will be joining the great people at Lifeworks and focusing on React development.
 
