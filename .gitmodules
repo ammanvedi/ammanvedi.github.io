@@ -1,0 +1,3 @@
+[submodule "assets/js/plugins/tidal-slider-widget"]
+	path = assets/js/plugins/tidal-slider-widget
+	url = https://github.com/ammanvedi/tidal-scroller.git

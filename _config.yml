@@ -36,6 +36,9 @@ exclude:
 #   - Gemfile.lock
     - assets/js/node_modules
     - assets/js/src
+    - assets/js/plugins/tidal-slider-widget/dist/index.html
+    - assets/js/plugins/tidal-slider-widget/src/
+    - assets/js/plugins/tidal-slider-widget/readme.md
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/

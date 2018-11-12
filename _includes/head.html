@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.5/require.min.js"></script>
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,IntersectionObserver,IntersectionObserverEntry"></script>
   <script src="/assets/js/dist/app.bundle.js"></script>
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}

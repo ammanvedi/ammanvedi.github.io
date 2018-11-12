@@ -9,7 +9,7 @@ title: About
 <span style="filter:grayscale(100%);" >💌</span> amman.vedi@gmail.com <br/>
 <span style="filter:grayscale(100%);" >🔗</span> [Github](https://github.com/ammanvedi)&nbsp;<span style="opacity:.3;">•</span>&nbsp;[Twitter](https://twitter.com/ammanv)&nbsp;<span style="opacity:.3;">•</span>&nbsp;[LinkedIn](https://www.linkedin.com/in/ammanvedi/)
 
-<br/>
+<br/> 
 **Vitals** &nbsp;<span style="opacity:.3;">•</span>&nbsp; <span style="filter:grayscale(100%);" >❤️</span>
 <div id="health" class="health-container">
     <div class="loader">
@@ -19,6 +19,10 @@ title: About
     </div>
 </div>
 
+<br/>
+**Favorite Music** &nbsp;<span style="opacity:.3;">•</span>&nbsp; <span style="filter:grayscale(100%);" >🎵</span>
+<div class="slider-widget" id="tidal-slider"></div>
+<script type="text/javascript" src="/assets/js/plugins/tidal-slider-widget/dist/app.js"></script>
 <br/>
 **Work** &nbsp;<span style="opacity:.3;">•</span>&nbsp; <span style="filter:grayscale(100%);" >💼</span>
 
